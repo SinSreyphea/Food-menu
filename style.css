@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: yellow;
+    padding: 30px;
+}
+.logo{
+    margin-top: 20px;
+    display: flex;
+    height: 90px;
+    justify-content: center;
+}
+.title{
+    /* display: flex; */
+        text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.title ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+    justify-content: center;
+}
+.title ul li{
+   width: 20PX;
+   height: 20PX;
+   background-color: #fff;
+   border-radius: 50%;
+   box-shadow: 1px 1px 5px gray;
+}
+ul li.active{
+    background-color: cornflowerblue;
+}
+.sub-container{
+    background-color:#fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+.sub-container .item{
+    /* background-color: black; */
+    height: 250px;
+    /* margin-left: px; */
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.item .item-box{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+.item-box .img-box{
+    width: 100%;
+    height: 80%;
+    background-color: hotpink;
+}
+.item-box .txt-box{
+    width: 100%;
+    height: 20%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.txt-box h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/* .item-box{
+        width: 90%;
+        height: 90%;
+
+    } */
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+	
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	
+}
